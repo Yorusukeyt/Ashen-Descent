@@ -1,7 +1,7 @@
 // Ashen Descent service worker
 // Network-first: always loads the newest game when online, falls back to cache offline.
 // Bump V whenever you update the game so old caches get cleared.
-const V = 'ashen-v33';
+const V = 'ashen-v42';
 const FILES = ['./', 'index.html', 'scene0.jpg', 'scene1.jpg', 'scene2.jpg', 'scene3.jpg', 'scene4.jpg', 'title-card.jpg', 'intro-narration-01.mp3', 'intro-narration-02.mp3', 'intro-narration-03.mp3', 'intro-narration-04.mp3', 'intro-unknown-voice.mp3', 'boss-warden.mp3', 'boss-lord.mp3', 'boss-reaper.mp3'];
 const PEERJS = 'https://unpkg.com/peerjs@1.5.5/dist/peerjs.min.js';
 
